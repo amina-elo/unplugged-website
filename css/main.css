@@ -98,6 +98,224 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /* -------------------- Base Header - Footer Styles -------------------- */
+   header,
+   footer {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+
+/* ------------------ Header ------------------- */
+
+   header .content-wrapper{
+     display:flex;
+   }
+
+   header .class-divider{
+     display: flex;
+   }
+
+   header nav {
+     display: flex;
+   }
+
+   header nav ul li{
+
+ }
+
+ header nav ul li a{
+   display: flex;
+ }
+
+/* ---------------- FOOTER ---------------- */
+
+footer .content-wrapper{
+  display: flex;
+}
+
+footer address .contact{
+  display: flex;
+}
+
+footer h4 {
+
+}
+
+footer p{
+
+}
+
+footer .social {
+  display: flex;
+}
+
+footer .social-icons a{
+  display: flex;
+}
+
+footer .copyright{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+/* ----------------------------- MAIN HOMEPAGE -------------------------- */
+
+section .hero-area{
+
+}
+
+section .hero-area img{
+
+}
+
+section .hero-area{
+
+}
+
+section h1{
+
+}
+
+aside .form-description{
+  display: flex;
+}
+
+aside h3{
+
+}
+
+aside p{
+
+}
+
+aside .form{
+ display: flex;
+}
+
+aside input{
+
+}
+
+/***** FEATURES SECTION *****/
+
+section .features{
+
+}
+
+section .features .content-wrapper{
+  display: flex;
+}
+
+section h2{
+
+}
+
+.article-items{
+display: flex;
+}
+
+article .fontawesome-icon{
+display: flex;
+}
+
+article .features-item-description{
+ display: flex;
+}
+
+.features-item-description p{
+
+}
+/*****  REVIEWS SECTION *****/
+
+section .reviews{
+  display: flex;
+}
+
+/* section h2 for reviews is same as features section h2 */
+
+.reviews article h3{
+
+}
+
+.reviews article p{
+
+}
+
+/* ----------------------------- MAIN ABOUT PAGE -------------------------- */
+
+section .mission{
+}
+
+section .mission .content-wrapper{
+  display: flex;
+}
+
+.mission p{
+
+}
+
+.map{
+  display: flex;
+}
+
+.contact-section{
+
+}
+
+section .contact-section .content-wrapper{
+  display: flex;
+}
+
+.contact-section address{
+  display: flex;
+}
+
+address h3{
+
+}
+
+address p{
+
+}
+
+
+/* ----------------------------- MAIN FAQ PAGE -------------------------- */
+
+
+main .faq{
+
+}
+
+main .faq .content-wrapper{
+  display: flex;
+}
+
+.faq-content{
+  display: flex;
+}
+
+.faq-content h4{
+
+}
+
+.faq-content p{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -262,4 +480,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
