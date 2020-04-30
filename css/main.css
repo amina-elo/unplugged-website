@@ -97,41 +97,76 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+   html,body{
+     margin:0;
+     overflow-x: hidden;
+   }
+   .content-wrapper{
+     max-width: 360px;
+   }
    /* -------------------- Base Header - Footer Styles -------------------- */
    header,
    footer {
        display: flex;
        justify-content: center;
        align-items: center;
+       flex-direction: column;
    }
 
 /* ------------------ Header ------------------- */
 
    header .content-wrapper{
      display:flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     width: 60%;
+     padding: 15px 0;
+     margin: 0;
    }
 
+   header img{
+     padding: 0 0 15px 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+  }
    header .class-divider{
      display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 90%;
    }
 
    header nav {
-     display: flex;
+     margin:0;
+     width: 100%;
+     padding: 20px 0px 20px 0px;
    }
 
    header nav ul li{
-
+     width: 30%;
+     display: inline-flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-flow: row wrap;
+     padding-left: 20px;
+     margin: 0;
  }
 
- header nav ul li a{
-   display: flex;
+ header nav ul li a {
+   text-decoration: none;
  }
 
 /* ---------------- FOOTER ---------------- */
 
 footer .content-wrapper{
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55%;
+  padding: 52px 80px;
+  flex-direction: column;
 }
 
 footer address .contact{
@@ -143,7 +178,10 @@ footer h4 {
 }
 
 footer p{
-
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer .social {
@@ -154,33 +192,33 @@ footer .social-icons a{
   display: flex;
 }
 
-footer .copyright{
+footer .copyright p{
 display: flex;
-justify-content: center;
-align-items: center;
+justify-content: flex-end;
+align-items: baseline;
+flex-direction: column;
+
 }
 
 
 /* ----------------------------- MAIN HOMEPAGE -------------------------- */
 
-section .hero-area{
-
+section .hero-area .content-wrapper{
+  width: 84%;
+  padding: 60px 20px;
 }
 
 section .hero-area img{
 
 }
 
-section .hero-area{
-
-}
-
 section h1{
-
+  padding: 60px 20px;
 }
 
 aside .form-description{
   display: flex;
+  padding: 30px 20px;
 }
 
 aside h3{
@@ -188,15 +226,18 @@ aside h3{
 }
 
 aside p{
+  padding: 15px 20px;
 
 }
 
 aside .form{
  display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
 aside input{
-
+  padding: 15px 20px;
 }
 
 /***** FEATURES SECTION *****/
@@ -207,41 +248,56 @@ section .features{
 
 section .features .content-wrapper{
   display: flex;
+  width: 89%;
+  padding: 46px 17px;
 }
 
 section h2{
-
+  padding: 46px 17px;
 }
 
 .article-items{
 display: flex;
 }
 
+.article-items article{
+  width: 55%;
+}
 article .fontawesome-icon{
 display: flex;
 }
 
 article .features-item-description{
  display: flex;
+ padding: 37px 80px;
 }
 
-.features-item-description p{
+article .features-item-description p{
+margin: 0;
 
 }
 /*****  REVIEWS SECTION *****/
 
-section .reviews{
+section .reviews .content-wrapper{
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 97%;
 }
 
+section .review h2{
+  padding: 30px 20px;
+}
 /* section h2 for reviews is same as features section h2 */
 
 .reviews article h3{
-
+  width: 48%;
+  padding: 16px 20px;
 }
 
 .reviews article p{
-
+  padding: 3px 20px 20px 20px;
 }
 
 /* ----------------------------- MAIN ABOUT PAGE -------------------------- */
@@ -251,10 +307,12 @@ section .mission{
 
 section .mission .content-wrapper{
   display: flex;
+  width: 89%;
+  padding: 51px 20px;
 }
 
 .mission p{
-
+  padding: 20px 20px;
 }
 
 .map{
@@ -267,18 +325,28 @@ section .mission .content-wrapper{
 
 section .contact-section .content-wrapper{
   display: flex;
+  width: 87%;
+  padding: 52px 20px;
 }
 
-.contact-section address{
+.contact-section .content-wrapper h2{
+  margin-bottom: -40px;
+}
+.contact-section .content-wrapper address{
   display: flex;
+  flex-direction: column;
+  padding:;
+  margin: 0;
 }
 
-address h3{
-
+.contact-section .content-wrapper address h3{
+  padding: 0px 20px;
+  margin: 0;
 }
 
-address p{
-
+.contact-section .content-wrapper address p{
+ padding: 5px 20px 15px 20px;
+ margin:0;
 }
 
 
@@ -291,18 +359,30 @@ main .faq{
 
 main .faq .content-wrapper{
   display: flex;
+  width: 100%;
+  padding: 50px 20px;
 }
 
 .faq-content{
   display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-top: 20px;
 }
 
 .faq-content h4{
+  margin:0;
+  padding: 5px 20px;
 
 }
 
-.faq-content p{
+.faq .content-wrapper h2 {
+padding: 5px 20px;
+}
 
+.faq-content p{
+  padding: 5px 20px;
+  margin: 0;
 }
 
 
