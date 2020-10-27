@@ -101,303 +101,121 @@ textarea {
      margin:0;
      overflow-x: hidden;
    }
-   .content-wrapper{
-     max-width: 360px;
-   }
+
    /* -------------------- Base Header - Footer Styles -------------------- */
-   header,
-   footer {
+header,footer {
        display: flex;
        justify-content: center;
        align-items: center;
-       flex-direction: column;
+       flex-flow: row wrap;
    }
+
 
 /* ------------------ Header ------------------- */
 
-   header .content-wrapper{
-     display:flex;
-     justify-content: center;
-     align-items: center;
-     flex-direction: column;
-     width: 60%;
-     padding: 15px 0;
-     margin: 0;
-   }
+header{
+      padding: 15px 0;
+}
 
-   header img{
-     padding: 0 0 15px 0;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-  }
-   header .class-divider{
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     width: 90%;
-   }
+header .content-wrapper{
+      width: 60%;
+      margin: 0;
 
-   header nav {
-     margin:0;
-     width: 100%;
-     padding: 20px 0px 20px 0px;
-   }
+    }
 
-   header nav ul li{
-     width: 30%;
-     display: inline-flex;
-     justify-content: space-between;
-     align-items: center;
-     flex-flow: row wrap;
-     padding-left: 20px;
-     margin: 0;
+header img{
+
+}
+
+
+
+.header-divider{
+      width: 100%;
+    }
+
+
+header nav {
+      width: 60%;
+
+
+}
+
+header nav ul{
+   width: 44%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   list-style-type: none;
  }
 
- header nav ul li a {
-   text-decoration: none;
+ header nav ul li{
+padding: 20px 30px 20px 100px;
  }
+
+
+
 
 /* ---------------- FOOTER ---------------- */
 
 footer .content-wrapper{
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 55%;
-  padding: 52px 80px;
-  flex-direction: column;
-}
-
-footer address .contact{
-  display: flex;
-}
-
-footer h4 {
-
+  margin: 50px 0;
 }
 
 footer p{
   margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-footer .social {
-  display: flex;
-}
-
-footer .social-icons a{
-  display: flex;
-  justify-content:center;
-  align-items: center;
-}
-
-footer .copyright p{
-display: flex;
-justify-content: flex-end;
-align-items: baseline;
-flex-direction: column;
-
 }
 
 
 /* ----------------------------- MAIN HOMEPAGE -------------------------- */
 
-section .hero-area .content-wrapper{
+.hero-area .content-wrapper{
   width: 84%;
-  padding: 60px 20px;
 }
 
-section .hero-area img{
-
+main h1 {
 }
 
-section h1{
-  padding: 60px 20px;
-}
+img{
 
-aside .form-description{
-  display: flex;
-  padding: 30px 20px;
-}
+    }
 
-aside h3{
-
-}
-
-aside p{
-  padding: 15px 20px;
-
-}
-
-aside .form{
- display: flex;
- justify-content: center;
- align-items: center;
-}
-
-aside input{
-  padding: 15px 20px;
-}
 
 /***** FEATURES SECTION *****/
 
-section .features{
+.features .content-wrapper{
+    width: 85%;
+  }
 
+.features article{
+  width: 55%;
 }
 
-section .features .content-wrapper{
-  display: flex;
-  width: 89%;
-  padding: 46px 17px;
-}
-
-section h2{
-  padding: 46px 17px;
-}
-
-.features-items{
-
-}
-
-.features-items article{
-}
-
-
-article .fontawesome-icon{
-display: flex;
-}
-
-article .features-item-description{
- display: flex;
- padding: 37px 80px;
-}
-
-article .features-item-description p{
-margin: 0;
-
+.features p{
+  margin: 0;
 }
 /*****  REVIEWS SECTION *****/
 
-section .reviews .content-wrapper{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 97%;
-}
-
-section .review h2{
-  padding: 30px 20px;
-}
-/* section h2 for reviews is same as features section h2 */
-
-.reviews article h3{
-  width: 48%;
-  padding: 16px 20px;
-}
-
-.reviews article p{
-  padding: 3px 20px 20px 20px;
-}
+.reviews .content-wrapper{
+   width: 98%;
+ }
 
 /* ----------------------------- MAIN ABOUT PAGE -------------------------- */
 
-section .mission{
+.mission .content-wrapper{
+   width: 100%;
 }
 
-section .mission .content-wrapper{
-  display: flex;
+.contact-section .content-wrapper{
   width: 89%;
-  padding: 51px 20px;
 }
-
-.mission p{
-  padding: 20px 20px;
-}
-
-.map{
-  display: flex;
-}
-
-.contact-section{
-
-}
-
-section .contact-section .content-wrapper{
-  display: flex;
-  width: 87%;
-  padding: 52px 20px;
-  flex-direction: column;
-  margin: 0;
-}
-
-.contact-section .content-wrapper h2{
-  margin-bottom: -40px;
-}
-
-
-.contact-section .content-wrapper h3{
-  padding: 0px 20px;
-  margin: 0;
-}
-
-.contact-section .content-wrapper p{
- padding: 5px 20px 15px 20px;
- margin:0;
-}
-
 
 /* ----------------------------- MAIN FAQ PAGE -------------------------- */
 
-
-main .faq{
-
-}
-
-main .faq .content-wrapper{
-  display: flex;
-  width: 100%;
-  padding: 50px 20px;
-  margin: 0;
-}
-
-.faq-content{
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  padding-top: 20px;
-  margin: 0;
-}
-
-.faq-content h4{
-  margin:0;
-  padding: 5px 20px;
+.faq .content-wrapper{
+  width: 89%;
 
 }
-
-.faq .content-wrapper h2 {
-padding: 5px 20px;
-margin: 0;
-}
-
-.faq-content p{
-  padding: 5px 20px;
-  margin: 0;
-}
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes
@@ -488,8 +306,21 @@ margin: 0;
    Modify as content requires.
    ========================================================================== */
 
+
+
+
+
+/*
+********************************************************
+======================== TABLET ========================
+********************************************************
+*/
+
+
+
  @media only screen and (min-width: 768px){
- /*Tablet styles here*/
+
+
 
 
  /* ------------------ HEADER & FOOTER ------------------- */
@@ -497,243 +328,64 @@ margin: 0;
 /* ------- HEADER ------- */
 
 
-  header{
-    width: 83.33%;
-    display: flex;
-    flex-flow: row;
-  }
-
-  header .content-wrapper{
-    display: flex;
-    flex-flow: row;
-    margin: 0;
-    padding: 20px 64px 0px 64px;
- }
-
- header img{
-   padding: 0 400px 0px 120px;
-   width: 20.15%;
- }
-
- header .class-divider{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   width:0%;
- }
-
- header nav {
-   margin:0;
-   width: 30%;
-   padding: 20px 0px 20px 150px;
-   display: flex;
-   flex-flow: row;
- }
-
- header nav ul li{
-   width: 50%;
-   display: inline-flex;
-   justify-content: center;
-   align-items: center;
-   flex-flow: wrap;
-   padding-left: 70px;
-   margin: -80px;
-}
 
 
 /* ----------- FOOTER ----------- */
 
-footer .footer-content{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
-footer .contact {
-  margin-left: -30px;
-}
-
-footer .social{
-  margin-left: 180px;
-  margin-top: -55px;
-}
 
 /* ----------------------------- MAIN HOMEPAGE -------------------------- */
 
-section h1{
-  padding: 60px 60px;
-  width:100%;
-  margin: 0;
-}
-
-aside{
-  display: flex;
-  flex-flow: row;
-}
-aside .form-description{
-  display: flex;
-  padding: 30px 0px 30px 60px;
-  flex-flow: column;
-  width: 50%;
-  margin: 0;
-}
-
-aside h3{
-  margin: 0;
-}
-
-aside p{
-  margin: 0;
-  padding-left: 0px;
-}
-
-aside .form{
-  width: 50%;
-  margin: 0;
-  padding-right: 40px;
-}
 
 /*-----------   FEATURES SECTION ---------*/
 
-.features h2{
-  width: 100%;
-  padding-left: 60px;
-}
-
-.features-items{
-  width: 100%;
-
-}
-
-
- .item-duo{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
-    width: 100%;
-}
-
- section .features .content-wrapper{
-  display: flex;
-  width: 100%;
-  padding: 50px 50px;
-  margin:0;
-}
-
- .features-item-description{
-   width: 100%;
-   margin: 0;
- }
-
- article{
-   padding: 0 80px 0 30px;
-}
 
 
  /* ----------------- REVIEWS -------------- */
 
-section .reviews h2{
-  padding-left: 140px;
-  margin:0;
-}
-
-section .reviews h3{
-}
 
 
 /* ----------------------------- ABOUT PAGE -------------------------- */
 
-.mission .content-wrapper{
-  width: 80%;
-}
 
- .mission{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  width: 100%;
-}
-
-
-
-.mission-content{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 200%;
-  margin-left: -155px;
-}
 /*---- MAP ---- */
 
-figure{
-  margin: 300px;
-}
 
 /*--- contact ---*/
 
-.contact-section .content-wrapper{
-  width:100%;
-}
 
-.contact-info{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 50px;
-  width: 165%;
-  margin: 20px 0px 0px 0px;
-  }
-
-.contact-section h2{
-  padding-left: 70px;
-  margin: 0;
-}
 
 /* ----------------------------- FAQ PAGE -------------------------- */
 
-.faq .content-wrapper {
-  margin:0 0 260px 0;
-    }
-
-    .faq-content {
-      display: flex;
-      flex-basis: 40%;
-      margin: 0;
-      padding-left: 140px;
-    }
 
 
-.faq-duo{
-  width: 200%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-  margin: 0 0 0 -95px;
-}
 
-.faq .content-wrapper h2 {
-  width: 100%;
-  padding-left: 60px;
-}
-
-.div{
-  margin-bottom: 20px;
-}
-
-.faq-content h4{
-  width: 140%;
-}
-
-.faq-content p{
-width: 138%;
-}
-
-}
+/*
+********************************************************
+======================== DESKTOP =======================
+********************************************************
+*/
 
  @media only screen and (min-width: 1200px){
+
+
+
+/* ------- HEADER -------- */
+
+
+
+/* ---------------------------------- MAIN HOMEPAGE -----------------------------*/
+
+
+
+/* ----FEATURES ---- */
+
+
+
+
+
+
+
 
  }
 /* ==========================================================================
